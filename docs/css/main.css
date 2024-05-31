@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    overflow: hidden;
+
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+div {
+    max-width: calc(1200px - 15px * 2);
+    margin-inline: auto;
+    padding-inline: auto;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    color: white;
+
+    text-align: center;
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Легкая тень */
+}
